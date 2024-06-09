@@ -10,7 +10,7 @@ import {AuthenticationRequest} from "../models/authentication-request";
 })
 export class AuthenticationService {
 
-  private baseUrl = 'http://13.49.65.161:8080/api/v1/auth'
+  private baseUrl = 'https://13.49.65.161:8080/api/v1/auth'
 
   constructor(
     private http: HttpClient
